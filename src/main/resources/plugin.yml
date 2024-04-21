@@ -1,0 +1,11 @@
+name: Mafk
+version: '${project.version}'
+main: com.flow.mafk.Mafk
+api-version: '1.20'
+
+depend:
+  - PlaceholderAPI
+
+commands:
+  잠수관리:
+    permission: mafk.command.manage

@@ -1,0 +1,23 @@
+setting:
+  afk-period: 60000 # 잠수 시작 주기 60000 = 60초
+  point-period: 30000 # 포인트 지급 주기 30000 = 30초
+  auto-give-point: 3 # 자동으로 지급될 포인트
+
+message:
+  afk-start: '잠수가 시작되었습니다.'
+  afk-end: '잠수가 종료되었습니다.'
+  receive-point: '잠수 포인트가 지급되었습니다. 현재 포인트 : %1%'
+
+mysql:
+  ip: 127.0.0.1
+  username: root
+  password: "1234"
+  port: "3306"
+  database: "mafk"
+  poolsize: 10
+
+command:
+  afk-start:
+    - 'broadcast %player_name% 님이 잠수를 시작'
+  afk-end:
+    - 'broadcast %player_name% 님이 잠수를 종료'

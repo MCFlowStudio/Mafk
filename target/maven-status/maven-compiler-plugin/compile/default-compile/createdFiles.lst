@@ -1,0 +1,13 @@
+com\flow\mafk\database\FileDataService.class
+com\flow\mafk\database\StorageDataService.class
+com\flow\mafk\hook\PlaceHolderHook.class
+com\flow\mafk\command\ManageCommand.class
+com\flow\mafk\Mafk.class
+com\flow\mafk\listener\PlayerListener.class
+com\flow\mafk\task\AfkTask.class
+com\flow\mafk\Mafk$1.class
+com\flow\mafk\util\object\User.class
+com\flow\mafk\util\MessageUtil.class
+com\flow\mafk\database\CachedDataService.class
+com\flow\mafk\database\mysql\DBConnection.class
+com\flow\mafk\Mafk$2.class
